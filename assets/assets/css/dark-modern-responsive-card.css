@@ -1,0 +1,194 @@
+button {
+  background: linear-gradient(160deg, #4d3d8f 0%, #5c4db1 52%, #47368c 100%), #375a7f;
+  width: 150px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursour: pointer;
+}
+
+button:focus {
+  border-color: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.outsideCard {
+  border-radius: 25px;
+  background: linear-gradient(160deg, #3a2d6f 0%, var(--bs-purple) 50%, #271d4e 108%), #375a7f;
+  box-shadow: 2px 2px 4px var(--bs-purple);
+  border-style: none;
+}
+
+.mainCard {
+  border-radius: 25px;
+  background: linear-gradient(139deg, #29353a, #495270 59%, #29353a 100%);
+}
+
+.form-control.text-white {
+  height: 50px;
+  color: var(--bs-light);
+  border-radius: 5px;
+  width: 250px;
+  color: white;
+}
+
+.form-control.text-white:focus {
+  border-color: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+select {
+  width: 250px;
+  height: 50px;
+  color: #CED4DA;
+  border-radius: 5px;
+}
+
+select:focus {
+  border-color: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-check-input {
+  border-color: transparent;
+  background-color: #CED4DA;
+  padding: 8px;
+}
+
+.form-check-input:focus {
+  border-color: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.plusIcon {
+  font-size: 60px;
+  color: #e2e6ea;
+  opacity: 0.29;
+}
+
+@media (min-width: 360px) and (min-height: 360px) {
+  * {
+    margin: auto;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 360px) {
+  .outsideCard {
+    height: 150px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 360px) {
+  #settingsCol {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 360px) {
+  #controlsCol {
+    margin: auto;
+    width: 300px;
+  }
+}
+
+@media (min-width: 576px) and (min-height: 600px) {
+  .outsideCard {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: -100px;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 576px) and (min-height: 600px) {
+  .mainCard {
+    height: 350px;
+    width: 500px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 576px) and (min-height: 600px) {
+  #settingsCol {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 576px) and (min-height: 600px) {
+  #controlsCol {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainCard {
+    height: 350px;
+    width: 450px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .outsideCard {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: -150px;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  #settingsCol {
+    margin: auto;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  #controlsCol {
+    width: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mainCard {
+    height: 350px;
+    width: 550px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .outsideCard {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: -150px;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  #settingsCol {
+    margin: auto;
+    visibility: visible;
+    width: 150px;
+    margin-left: 60px;
+  }
+}
+
+.form-check-label {
+  color: #CED4DA;
+}
+
